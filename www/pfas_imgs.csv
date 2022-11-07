@@ -1,0 +1,75 @@
+pfas_id,preferred_name,casrn,imgs
+1,tris[(Trifluoroethoxy)methane],58244-27-2,www/molecules/1.png
+2,6:2 Fluorotelomer methacrylate,2144-53-8,www/molecules/2.png
+3,Sevoflurane,28523-86-6,www/molecules/3.png
+4,"2,2,3,3,4,4-Hexafluorobutanoic acid",679-12-9,www/molecules/4.png
+5,[3-[[(heptadecafluorooctyl)sulphonyl]amino]propyl]trimethylammonium iodide,1652-63-7,www/molecules/5.png
+6,Potassium perfluorooctanesulfonate,2795-39-3,www/molecules/6.png
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid",55621-21-1,www/molecules/7.png
+8,Perfluorobutanesulfonyl fluoride,375-72-4,www/molecules/8.png
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,1691-99-2,www/molecules/9.png
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,329710-76-1,www/molecules/10.png
+11,Heptafluorobutanol,375-01-9,www/molecules/11.png
+12,Perfluorobutanoic acid,375-22-4,www/molecules/12.png
+13,"2,2-Difluoroethyl triflate",74427-22-8,www/molecules/13.png
+14,"2H,2H,3H,3H-Perfluorooctanoic acid",914637-49-3,www/molecules/14.png
+15,4:2 Fluorotelomer sulfonic acid,757124-72-4,www/molecules/15.png
+16,N-Methylperfluorooctanesulfonamide,31506-32-8,www/molecules/16.png
+17,Perfluorononanoic acid,375-95-1,www/molecules/17.png
+18,Allyl perfluoroisopropyl ether,15242-17-8,www/molecules/18.png
+19,Nonafluoropentanamide,13485-61-5,www/molecules/19.png
+20,Perfluorohexanoic acid,307-24-4,www/molecules/20.png
+21,Ammonium perfluorooctanoate,3825-26-1,www/molecules/21.png
+22,1-Propenylperfluoropropane,355-95-3,www/molecules/22.png
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid",1763-28-6,www/molecules/23.png
+24,N-Ethylperfluorooctanesulfonamide,4151-50-2,www/molecules/24.png
+25,2-Vinylperfluorobutane,239795-57-4,www/molecules/25.png
+26,Potassium perfluorohexanesulfonate,3871-99-6,www/molecules/26.png
+27,Flurothyl,333-36-8,www/molecules/27.png
+28,Perfluoro(4-methoxybutanoic) acid,863090-89-5,www/molecules/28.png
+29,"1,1,1,3,3-Pentafluorobutane",406-58-6,www/molecules/29.png
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol",125070-38-4,www/molecules/30.png
+31,Heptafluorobutyramide,662-50-0,www/molecules/31.png
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol",129301-42-4,www/molecules/32.png
+33,2-Aminohexafluoropropan-2-ol,31253-34-6,www/molecules/33.png
+34,"Perfluoro-3,6,9-trioxatridecanoic acid",330562-41-9,www/molecules/34.png
+35,Hexafluoroamylene glycol,376-90-9,www/molecules/35.png
+36,Methyl perfluorohexanoate,424-18-0,www/molecules/36.png
+37,Perfluoro-2-methyl-3-oxahexanoic acid,13252-13-6,www/molecules/37.png
+38,Perfluoropentanamide,355-81-7,www/molecules/38.png
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate",132424-36-3,www/molecules/39.png
+40,4:4 Fluorotelomer alcohol,3792-02-7,www/molecules/40.png
+41,4:2 Fluorotelomer alcohol,2043-47-2,www/molecules/41.png
+42,Perfluorobutyraldehyde,375-02-0,www/molecules/42.png
+43,Pentafluoropropanoic anhydride,356-42-3,www/molecules/43.png
+44,Perfluoroisobutyl methyl ether,163702-08-7,www/molecules/44.png
+45,"Bis(1H,1H-perfluoropropyl)amine",883498-76-8,www/molecules/45.png
+46,Perfluorooctanesulfonic acid,1763-23-1,www/molecules/46.png
+47,Methyl heptafluorobutyrate,356-24-1,www/molecules/47.png
+48,"1H,1H,5H-Perfluoropentanol",355-80-6,www/molecules/48.png
+49,3-(Perfluoropropyl)propanol,679-02-7,www/molecules/49.png
+50,11:1 Fluorotelomer alcohol,423-65-4,www/molecules/50.png
+51,5H-Octafluoropentanoyl fluoride,813-03-6,www/molecules/51.png
+52,"Difluoromethyl 1H,1H-perfluoropropyl",56860-81-2,www/molecules/52.png
+53,Heptafluoropropyl trifluorovinyl ether,1623-05-8,www/molecules/53.png
+54,"Perfluoro-3,6-dioxaheptanoic acid",151772-58-6,www/molecules/54.png
+55,Methyl perfluoroethyl ketone,374-41-4,www/molecules/55.png
+56,3-(Perfluoroisopropyl)-2-propenoic acid,243139-64-2,www/molecules/56.png
+57,Potassium perfluorobutanesulfonate,29420-49-3,www/molecules/57.png
+58,Octafluoroadipamide,355-66-8,www/molecules/58.png
+59,"1H,1H,2H-Perfluoro-1-hexene",19430-93-4,www/molecules/59.png
+60,Perfluorooctanesulfonamide,754-91-6,www/molecules/60.png
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,1694-30-0,www/molecules/61.png
+62,1-Pentafluoroethylethanol,374-40-3,www/molecules/62.png
+63,Perfluoroglutaryl difluoride,678-78-4,www/molecules/63.png
+64,8:2 Fluorotelomer alcohol,678-39-7,www/molecules/64.png
+65,Ethyl perfluorobutyl ether,163702-05-4,www/molecules/65.png
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane",77953-71-0,www/molecules/66.png
+67,Dodecafluoroheptanol,335-99-9,www/molecules/67.png
+68,"1H,1H-Perfluoropentylamine",355-27-1,www/molecules/68.png
+69,6H-Perfluorohex-1-ene,1767-94-8,www/molecules/69.png
+70,6:2 Fluorotelomer alcohol,647-42-7,www/molecules/70.png
+71,2-Amino-2H-perfluoropropane,1619-92-7,www/molecules/71.png
+72,5H-Perfluoropentanal,2648-47-7,www/molecules/72.png
+73,Perfluorobutanesulfonic acid,375-73-5,www/molecules/73.png
+74,Perfluorooctanoic acid,335-67-1,www/molecules/74.png
