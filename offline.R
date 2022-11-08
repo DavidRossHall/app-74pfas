@@ -13,12 +13,14 @@ library(tidyverse)
 imgs <- data.frame(
   imgs = list.files(path = "www/molecules/")
 )
+img_height = 100
 
 # table with relative molecule images & PFAS ID. 
 imgs <- imgs %>%
   mutate(pfas_id = str_replace(imgs, "\\.png", ""),
          pfas_id = as.numeric(pfas_id),
-         imgs = paste0("www/molecules/", imgs)) %>%
+         img_path = paste0("\"molecules/", imgs,"\""),
+         img_html = paste0('<img src=', img_path, ' height =\"', img_height ,'\"></img>' )) %>%
   relocate(pfas_id) %>%
   arrange(pfas_id)
   
@@ -26,6 +28,7 @@ pfas_info <- read_csv("raw-data/74pfas_info.csv") %>%
   mutate(pfas_id = as.numeric(pfas_id))
 
 pfas <- left_join(pfas_info, imgs) %>%
-  select(pfas_id, preferred_name, casrn, imgs)
+  select(pfas_id, preferred_name, casrn, img_html)
 
 write_csv(pfas, file = "www/pfas_imgs.csv")
+

@@ -1,24 +1,55 @@
 ### Created by David Ross Hall --- davidross.hall@mail.utoronto.ca
 ### File created on 2022-11-07
 
-require(shiny)
-library(DT)
+### --- based on table here: https://yihui.shinyapps.io/DT-info/
 
-shinyUI <- DT::dataTableOutput('mytable')
+# 1. Setup -----
 
-dat <- data.frame(
-  country = c('China'),
-  flag = c('<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/200px-Flag_of_the_People%27s_Republic_of_China.svg.png" height="52"></img>'
+  ## 1.1. Libraries ----
+  
+  library(shiny)
+  library(shiny)
+  library(DT)
+  
+  source("www/utils.R")
+  
+  ## 1.2 74 PFAS data ----
+  
+  pfas_info <- read_csv(file = "www/pfas_imgs.csv")
+
+# 2. UI  ----- 
+
+ui <- fluidPage(
+  title = 'PFAS Data Tables',
+  fluidRow(
+    column(6, DT::dataTableOutput('pfasTab')),
+    column(6, verbatimTextOutput('pfasSelection'))
   )
 )
 
-#now this is a function
-shinyServer <- function(input, output){
-  output$mytable <- DT::renderDataTable({
-    
-    DT::datatable(dat, escape = FALSE) # HERE
-  })
-}
+# 3. Server  ----- 
 
-#minor change to make it runnable
-shinyApp(shinyUI, shinyServer)
+server <- shinyServer(function(input, output, session) {
+  
+  ## 3.1 PFAS table w/ structures ----
+  
+  output$pfasTab = DT::renderDataTable(pfas_info, 
+                                       server = FALSE, 
+                                       escape = FALSE,
+                                       rownames= FALSE)
+
+  ## 3.2 Verbatim table selection ---- 
+  
+  output$pfasSelection = renderPrint({
+    cat('PFAS ID:\n\n')
+    cat(as.vector(input$pfasTab_rows_selected)[3], sep =', ')
+    cat('\n\nPreferred Names\n\n')
+    pfas_info[input$pfasTab_rows_selected, 'preferred_name']
+  })
+  
+      
+})
+
+# 4. Run the application  ----- 
+
+shinyApp(ui = ui, server = server)
