@@ -1,0 +1,445 @@
+pfas,name,measure,mean,sd,sig,pvalue
+1,tris(Trifluoroethoxy)methane,pericardial edema ,2.222222222,3.849001795,Yes,<0.0001
+2,6:2 Fluorotelomer methacrylate,pericardial edema ,3.333333333,3.333333333,Yes,<0.0001
+3,Sevoflurane,pericardial edema ,0,0,No,>0.9999
+4,4H-Perfluorobutanoic acid,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+5,Perfluorooctanesulfonamido ammonium iodide,pericardial edema ,0,0,No,>0.9999
+6,Potassium perfluorooctanesulfonate,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid",pericardial edema ,2.222222222,3.849001795,Yes,<0.0001
+8,Perfluorobutanesulfonyl fluoride,pericardial edema ,0,0,No,>0.9999
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+11,Heptafluorobutanol,pericardial edema ,4.444444444,3.849001795,Yes,<0.0001
+12,Perfluorobutanoic acid,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+13,"2,2-Difluoroethyl triflate",pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+14,"2H,2H,3H,3H-Perfluorooctanoic acid",pericardial edema ,0,0,No,>0.9999
+15,4:2 Fluorotelomer sulfonic acid,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+16,N-Methylperfluorooctanesulfonamide,pericardial edema ,0,0,No,>0.9999
+17,Perfluorononanoic acid,pericardial edema ,0,0,No,>0.9999
+18,Allyl perfluoroisopropyl ether,pericardial edema ,0,0,No,>0.9999
+19,Nonafluoropentanamide,pericardial edema ,0,0,No,>0.9999
+20,Perfluorohexanoic acid,pericardial edema ,0,0,No,>0.9999
+21,Ammonium perfluorooctanoate,pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+22,1-Propenylperfluoropropane,pericardial edema ,0,0,No,>0.9999
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid",pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+24,N-Ethylperfluorooctanesulfonamide,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+25,2-Vinylperfluorobutane,pericardial edema ,0,0,No,>0.9999
+26,Potassium perfluorohexanesulfonate,pericardial edema ,0,0,No,>0.9999
+27,Flurothyl,pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+28,Perfluoro(4-methoxybutanoic) acid,pericardial edema ,0,0,No,>0.9999
+29,"1,1,1,3,3-Pentafluorobutane",pericardial edema ,0,0,No,>0.9999
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol",pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+31,Heptafluorobutyramide,pericardial edema ,0,0,No,>0.9999
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol",pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+33,2-Aminohexafluoropropan-2-ol,pericardial edema ,0,0,No,>0.9999
+34,"Perfluoro-3,6,9-trioxatridecanoic acid",pericardial edema ,0,0,No,>0.9999
+35,Hexafluoroamylene glycol,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+36,Methyl perfluorohexanoate,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+37,Perfluoro-2-methyl-3-oxahexanoic acid,pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+38,Perfluoropentanamide,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate",pericardial edema ,0,0,No,>0.9999
+40,4:4 Fluorotelomer alcohol,pericardial edema ,0,0,No,>0.9999
+41,4:2 Fluorotelomer alcohol,pericardial edema ,3.333333333,5.773502692,Yes,<0.0001
+42,Perfluorobutyraldehyde,pericardial edema ,2.222222222,3.849001795,Yes,<0.0001
+43,Pentafluoropropanoic anhydride,pericardial edema ,4.444444444,5.091750772,Yes,<0.0001
+44,Perfluoroisobutyl methyl ether,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+45,"Bis(1H,1H-perfluoropropyl)amine",pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+46,Perfluorooctanesulfonic acid,pericardial edema ,0,0,No,>0.9999
+47,Methyl heptafluorobutyrate,pericardial edema ,2.222222222,1.924500897,Yes,<0.0001
+48,"1H,1H,5H-Perfluoropentanol",pericardial edema ,4.444444444,1.924500897,Yes,<0.0001
+49,3-(Perfluoropropyl)propanol,pericardial edema ,0,0,No,>0.9999
+50,11:1 Fluorotelomer alcohol,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+51,5H-Octafluoropentanoyl fluoride,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+52,"Difluoromethyl 1H,1H-perfluoropropyl",pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+53,Heptafluoropropyl trifluorovinyl ether,pericardial edema ,0,0,No,>0.9999
+54,"Perfluoro-3,6-dioxaheptanoic acid",pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+55,Methyl perfluoroethyl ketone,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+56,3-(Perfluoroisopropyl)-2-propenoic acid,pericardial edema ,0,0,No,>0.9999
+57,Potassium perfluorobutanesulfonate,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+58,Octafluoroadipamide,pericardial edema ,1.111111111,1.924500897,Yes,0.0324
+59,"1H,1H,2H-Perfluoro-1-hexene",pericardial edema ,0,0,No,>0.9999
+60,Perfluorooctanesulfonamide,pericardial edema ,0,0,No,0.9281
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,pericardial edema ,0,0,No,0.9281
+62,1-Pentafluoroethylethanol,pericardial edema ,1.111111111,1.924500897,No,0.1921
+63,Perfluoroglutaryl difluoride,pericardial edema ,0,0,No,0.9281
+64,8:2 Fluorotelomer alcohol,pericardial edema ,0,0,No,0.9281
+65,Ethyl perfluorobutyl ether,pericardial edema ,0,0,No,0.9281
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane",pericardial edema ,0,0,No,0.9281
+67,Dodecafluoroheptanol,pericardial edema ,1.111111111,1.924500897,No,0.9281
+68,"1H,1H-Perfluoropentylamine",pericardial edema ,0,0,No,0.9281
+69,6H-Perfluorohex-1-ene,pericardial edema ,0,0,No,0.9281
+70,6:2 Fluorotelomer alcohol,pericardial edema ,0,0,No,0.9281
+71,2-Amino-2H-perfluoropropane,pericardial edema ,0,0,No,0.9281
+72,5H-Perfluoropentanal,pericardial edema ,0,0,No,0.9281
+73,Perfluorobutanesulfonic acid,pericardial edema ,0,0,No,0.9281
+74,Perfluorooctanoic acid,pericardial edema ,0,0,No,0.9281
+1,tris(Trifluoroethoxy)methane,tail dysplasia ,2.222222222,3.849001795,Yes,0.0009
+2,6:2 Fluorotelomer methacrylate,tail dysplasia ,4.444444444,7.698003589,Yes,<0.0001
+3,Sevoflurane,tail dysplasia ,0,0,No,0.9281
+4,4H-Perfluorobutanoic acid,tail dysplasia ,0,0,No,0.9281
+5,Perfluorooctanesulfonamido ammonium iodide,tail dysplasia ,0,0,No,0.9281
+6,Potassium perfluorooctanesulfonate,tail dysplasia ,1.111111111,1.924500897,No,0.1921
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid",tail dysplasia ,0,0,No,0.9281
+8,Perfluorobutanesulfonyl fluoride,tail dysplasia ,3.333333333,3.333333333,Yes,<0.0001
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,tail dysplasia ,0,0,No,0.9281
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,tail dysplasia ,0,0,No,0.9281
+11,Heptafluorobutanol,tail dysplasia ,0,0,No,0.9281
+12,Perfluorobutanoic acid,tail dysplasia ,0,0,No,0.9281
+13,"2,2-Difluoroethyl triflate",tail dysplasia ,1.111111111,1.924500897,No,0.1921
+14,"2H,2H,3H,3H-Perfluorooctanoic acid",tail dysplasia ,1.111111111,1.924500897,No,0.1921
+15,4:2 Fluorotelomer sulfonic acid,tail dysplasia ,0,0,No,0.9281
+16,N-Methylperfluorooctanesulfonamide,tail dysplasia ,0,0,No,0.9281
+17,Perfluorononanoic acid,tail dysplasia ,0,0,No,0.9281
+18,Allyl perfluoroisopropyl ether,tail dysplasia ,0,0,No,0.9281
+19,Nonafluoropentanamide,tail dysplasia ,0,0,No,0.9281
+20,Perfluorohexanoic acid,tail dysplasia ,0,0,No,0.9281
+21,Ammonium perfluorooctanoate,tail dysplasia ,2.222222222,1.924500897,Yes,0.0009
+22,1-Propenylperfluoropropane,tail dysplasia ,0,0,No,0.9281
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid",tail dysplasia ,3.333333333,3.333333333,Yes,<0.0001
+24,N-Ethylperfluorooctanesulfonamide,tail dysplasia ,1.111111111,1.924500897,No,0.1921
+25,2-Vinylperfluorobutane,tail dysplasia ,0,0,No,0.9281
+26,Potassium perfluorohexanesulfonate,tail dysplasia ,0,0,No,0.9281
+27,Flurothyl,tail dysplasia ,0,0,No,0.9281
+28,Perfluoro(4-methoxybutanoic) acid,tail dysplasia ,0,0,No,0.9281
+29,"1,1,1,3,3-Pentafluorobutane",tail dysplasia ,0,0,No,0.9281
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol",tail dysplasia ,0,0,No,0.9281
+31,Heptafluorobutyramide,tail dysplasia ,0,0,No,0.9281
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol",tail dysplasia ,1.111111111,1.924500897,No,0.1921
+33,2-Aminohexafluoropropan-2-ol,tail dysplasia ,0,0,No,0.9281
+34,"Perfluoro-3,6,9-trioxatridecanoic acid",tail dysplasia ,0,0,No,0.9281
+35,Hexafluoroamylene glycol,tail dysplasia ,0,0,No,0.9281
+36,Methyl perfluorohexanoate,tail dysplasia ,0,0,No,0.9281
+37,Perfluoro-2-methyl-3-oxahexanoic acid,tail dysplasia ,1.111111111,1.924500897,No,0.1921
+38,Perfluoropentanamide,tail dysplasia ,1.111111111,1.924500897,No,0.1921
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate",tail dysplasia ,0,0,No,0.9281
+40,4:4 Fluorotelomer alcohol,tail dysplasia ,0,0,No,0.9281
+41,4:2 Fluorotelomer alcohol,tail dysplasia ,0,0,No,0.9281
+42,Perfluorobutyraldehyde,tail dysplasia ,0,0,No,0.9281
+43,Pentafluoropropanoic anhydride,tail dysplasia ,4.444444444,5.091750772,Yes,<0.0001
+44,Perfluoroisobutyl methyl ether,tail dysplasia ,0,0,No,0.9281
+45,"Bis(1H,1H-perfluoropropyl)amine",tail dysplasia ,1.111111111,1.924500897,No,0.1921
+46,Perfluorooctanesulfonic acid,tail dysplasia ,0,0,No,0.9281
+47,Methyl heptafluorobutyrate,tail dysplasia ,0,0,No,0.9281
+48,"1H,1H,5H-Perfluoropentanol",tail dysplasia ,1.111111111,1.924500897,No,0.1921
+49,3-(Perfluoropropyl)propanol,tail dysplasia ,0,0,No,0.9281
+50,11:1 Fluorotelomer alcohol,tail dysplasia ,1.111111111,1.924500897,No,0.1921
+51,5H-Octafluoropentanoyl fluoride,tail dysplasia ,3.333333333,3.333333333,Yes,<0.0001
+52,"Difluoromethyl 1H,1H-perfluoropropyl",tail dysplasia ,0,0,No,0.9281
+53,Heptafluoropropyl trifluorovinyl ether,tail dysplasia ,0,0,No,0.9281
+54,"Perfluoro-3,6-dioxaheptanoic acid",tail dysplasia ,1.111111111,1.924500897,No,0.1921
+55,Methyl perfluoroethyl ketone,tail dysplasia ,0,0,No,0.9281
+56,3-(Perfluoroisopropyl)-2-propenoic acid,tail dysplasia ,0,0,No,0.9281
+57,Potassium perfluorobutanesulfonate,tail dysplasia ,0,0,No,0.9281
+58,Octafluoroadipamide,tail dysplasia ,0,0,No,0.9281
+59,"1H,1H,2H-Perfluoro-1-hexene",tail dysplasia ,0,0,No,0.9281
+60,Perfluorooctanesulfonamide,tail dysplasia ,0,0,No,0.7694
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,tail dysplasia ,0,0,No,0.7694
+62,1-Pentafluoroethylethanol,tail dysplasia ,1.111111111,1.924500897,No,0.7694
+63,Perfluoroglutaryl difluoride,tail dysplasia ,0,0,No,0.7694
+64,8:2 Fluorotelomer alcohol,tail dysplasia ,0,0,No,0.6041
+65,Ethyl perfluorobutyl ether,tail dysplasia ,0,0,No,0.7694
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane",tail dysplasia ,0,0,No,0.7694
+67,Dodecafluoroheptanol,tail dysplasia ,0,0,No,0.7694
+68,"1H,1H-Perfluoropentylamine",tail dysplasia ,0,0,No,0.7694
+69,6H-Perfluorohex-1-ene,tail dysplasia ,0,0,No,0.7694
+70,6:2 Fluorotelomer alcohol,tail dysplasia ,0,0,No,0.7694
+71,2-Amino-2H-perfluoropropane,tail dysplasia ,0,0,No,0.7694
+72,5H-Perfluoropentanal,tail dysplasia ,0,0,No,0.7694
+73,Perfluorobutanesulfonic acid,tail dysplasia ,0,0,No,0.9894
+74,Perfluorooctanoic acid,tail dysplasia ,0,0,No,0.7694
+1,tris(Trifluoroethoxy)methane,spinal curvature,2.222222222,3.849001795,No,0.6041
+2,6:2 Fluorotelomer methacrylate,spinal curvature,1.111111111,1.924500897,No,0.9894
+3,Sevoflurane,spinal curvature,2.222222222,3.849001795,No,0.6041
+4,4H-Perfluorobutanoic acid,spinal curvature,2.222222222,1.924500897,No,0.6056
+5,Perfluorooctanesulfonamido ammonium iodide,spinal curvature,1.111111111,1.924500897,No,0.9894
+6,Potassium perfluorooctanesulfonate,spinal curvature,2.222222222,3.849001795,No,0.6041
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid",spinal curvature,1.111111111,1.924500897,No,0.9894
+8,Perfluorobutanesulfonyl fluoride,spinal curvature,1.111111111,1.924500897,No,0.9894
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,spinal curvature,0,0,No,0.7694
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,spinal curvature,1.111111111,1.924500897,No,0.9894
+11,Heptafluorobutanol,spinal curvature,2.222222222,1.924500897,No,0.6056
+12,Perfluorobutanoic acid,spinal curvature,0,0,No,0.7694
+13,"2,2-Difluoroethyl triflate",spinal curvature,0,0,No,0.7694
+14,"2H,2H,3H,3H-Perfluorooctanoic acid",spinal curvature,0,0,No,0.7694
+15,4:2 Fluorotelomer sulfonic acid,spinal curvature,0,0,No,0.7694
+16,N-Methylperfluorooctanesulfonamide,spinal curvature,0,0,No,0.7694
+17,Perfluorononanoic acid,spinal curvature,0,0,No,0.7694
+18,Allyl perfluoroisopropyl ether,spinal curvature,0,0,No,0.7694
+19,Nonafluoropentanamide,spinal curvature,0,0,No,0.7694
+20,Perfluorohexanoic acid,spinal curvature,0,0,No,0.7694
+21,Ammonium perfluorooctanoate,spinal curvature,1.111111111,1.924500897,No,0.9894
+22,1-Propenylperfluoropropane,spinal curvature,0,0,No,0.7694
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid",spinal curvature,3.333333333,3.333333333,No,0.201
+24,N-Ethylperfluorooctanesulfonamide,spinal curvature,1.111111111,1.924500897,No,0.9894
+25,2-Vinylperfluorobutane,spinal curvature,0,0,No,0.7694
+26,Potassium perfluorohexanesulfonate,spinal curvature,0,0,No,0.7694
+27,Flurothyl,spinal curvature,0,0,No,0.7694
+28,Perfluoro(4-methoxybutanoic) acid,spinal curvature,2.222222222,1.924500897,No,0.6056
+29,"1,1,1,3,3-Pentafluorobutane",spinal curvature,0,0,No,0.7694
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol",spinal curvature,2.222222222,1.924500897,No,0.6056
+31,Heptafluorobutyramide,spinal curvature,0,0,No,0.7694
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol",spinal curvature,0,0,No,0.7694
+33,2-Aminohexafluoropropan-2-ol,spinal curvature,0,0,No,0.7694
+34,"Perfluoro-3,6,9-trioxatridecanoic acid",spinal curvature,0,0,No,0.7694
+35,Hexafluoroamylene glycol,spinal curvature,4.444444444,3.849001795,Yes,0.04
+36,Methyl perfluorohexanoate,spinal curvature,0,0,No,0.7694
+37,Perfluoro-2-methyl-3-oxahexanoic acid,spinal curvature,0,0,No,0.7694
+38,Perfluoropentanamide,spinal curvature,0,0,No,0.7694
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate",spinal curvature,0,0,No,0.7694
+40,4:4 Fluorotelomer alcohol,spinal curvature,0,0,No,0.7694
+41,4:2 Fluorotelomer alcohol,spinal curvature,0,0,No,0.7694
+42,Perfluorobutyraldehyde,spinal curvature,2.222222222,1.924500897,No,0.6056
+43,Pentafluoropropanoic anhydride,spinal curvature,0,0,No,0.7694
+44,Perfluoroisobutyl methyl ether,spinal curvature,1.111111111,1.924500897,No,0.9894
+45,"Bis(1H,1H-perfluoropropyl)amine",spinal curvature,0,0,No,0.7694
+46,Perfluorooctanesulfonic acid,spinal curvature,0,0,No,0.7694
+47,Methyl heptafluorobutyrate,spinal curvature,1.111111111,1.924500897,No,0.9894
+48,"1H,1H,5H-Perfluoropentanol",spinal curvature,6.666666667,3.333333333,Yes,0.0004
+49,3-(Perfluoropropyl)propanol,spinal curvature,0,0,No,0.7694
+50,11:1 Fluorotelomer alcohol,spinal curvature,0,0,No,0.7694
+51,5H-Octafluoropentanoyl fluoride,spinal curvature,0,0,No,0.7694
+52,"Difluoromethyl 1H,1H-perfluoropropyl",spinal curvature,0,0,No,0.7694
+53,Heptafluoropropyl trifluorovinyl ether,spinal curvature,1.111111111,1.924500897,No,0.9894
+54,"Perfluoro-3,6-dioxaheptanoic acid",spinal curvature,0,0,No,0.7694
+55,Methyl perfluoroethyl ketone,spinal curvature,2.222222222,1.924500897,No,0.6056
+56,3-(Perfluoroisopropyl)-2-propenoic acid,spinal curvature,0,0,No,0.7694
+57,Potassium perfluorobutanesulfonate,spinal curvature,0,0,No,0.7694
+58,Octafluoroadipamide,spinal curvature,1.111111111,1.924500897,No,0.9894
+59,"1H,1H,2H-Perfluoro-1-hexene",spinal curvature,1.111111111,1.924500897,No,0.9894
+60,Perfluorooctanesulfonamide,spinal curvature,0,0,No,0.7694
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,spinal curvature,0,0,No,0.7694
+62,1-Pentafluoroethylethanol,spinal curvature,0,0,No,0.7694
+63,Perfluoroglutaryl difluoride,spinal curvature,0,0,No,0.7694
+64,8:2 Fluorotelomer alcohol,spinal curvature,2.222222222,3.849001795,No,0.6041
+65,Ethyl perfluorobutyl ether,spinal curvature,0,0,No,0.7694
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane",spinal curvature,0,0,No,0.7694
+67,Dodecafluoroheptanol,spinal curvature,0,0,No,0.7694
+68,"1H,1H-Perfluoropentylamine",spinal curvature,0,0,No,0.7694
+69,6H-Perfluorohex-1-ene,spinal curvature,0,0,No,0.7694
+70,6:2 Fluorotelomer alcohol,spinal curvature,0,0,No,0.7694
+71,2-Amino-2H-perfluoropropane,spinal curvature,0,0,No,0.7694
+72,5H-Perfluoropentanal,spinal curvature,0,0,No,0.7694
+73,Perfluorobutanesulfonic acid,spinal curvature,1.111111111,1.924500897,No,0.9894
+74,Perfluorooctanoic acid,spinal curvature,0,0,No,0.7694
+1,tris(Trifluoroethoxy)methane,"bcf, 0.5 uM",,,,
+2,6:2 Fluorotelomer methacrylate,"bcf, 0.5 uM",,,,
+3,Sevoflurane,"bcf, 0.5 uM",,,,
+4,4H-Perfluorobutanoic acid,"bcf, 0.5 uM",3.4,1.4,,
+5,Perfluorooctanesulfonamido ammonium iodide,"bcf, 0.5 uM",48,6,,
+6,Potassium perfluorooctanesulfonate,"bcf, 0.5 uM",288,99,,
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid","bcf, 0.5 uM",,,,
+8,Perfluorobutanesulfonyl fluoride,"bcf, 0.5 uM",,,,
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,"bcf, 0.5 uM",,,,
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,"bcf, 0.5 uM",,,,
+11,Heptafluorobutanol,"bcf, 0.5 uM",,,,
+12,Perfluorobutanoic acid,"bcf, 0.5 uM",2.6,1.3,,
+13,"2,2-Difluoroethyl triflate","bcf, 0.5 uM",,,,
+14,"2H,2H,3H,3H-Perfluorooctanoic acid","bcf, 0.5 uM",6.7,1,,
+15,4:2 Fluorotelomer sulfonic acid,"bcf, 0.5 uM",5.7,1,,
+16,N-Methylperfluorooctanesulfonamide,"bcf, 0.5 uM",292,56,,
+17,Perfluorononanoic acid,"bcf, 0.5 uM",153,6,,
+18,Allyl perfluoroisopropyl ether,"bcf, 0.5 uM",,,,
+19,Nonafluoropentanamide,"bcf, 0.5 uM",,,,
+20,Perfluorohexanoic acid,"bcf, 0.5 uM",6.6,1.1,,
+21,Ammonium perfluorooctanoate,"bcf, 0.5 uM",43,4.5,,
+22,1-Propenylperfluoropropane,"bcf, 0.5 uM",,,,
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid","bcf, 0.5 uM",1.8,0.98,,
+24,N-Ethylperfluorooctanesulfonamide,"bcf, 0.5 uM",28,7.8,,
+25,2-Vinylperfluorobutane,"bcf, 0.5 uM",,,,
+26,Potassium perfluorohexanesulfonate,"bcf, 0.5 uM",55,6.3,,
+27,Flurothyl,"bcf, 0.5 uM",,,,
+28,Perfluoro(4-methoxybutanoic) acid,"bcf, 0.5 uM",5.2,3.2,,
+29,"1,1,1,3,3-Pentafluorobutane","bcf, 0.5 uM",,,,
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol","bcf, 0.5 uM",,,,
+31,Heptafluorobutyramide,"bcf, 0.5 uM",,,,
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol","bcf, 0.5 uM",5.9,0.08,,
+33,2-Aminohexafluoropropan-2-ol,"bcf, 0.5 uM",,,,
+34,"Perfluoro-3,6,9-trioxatridecanoic acid","bcf, 0.5 uM",585,174,,
+35,Hexafluoroamylene glycol,"bcf, 0.5 uM",1.6,0.46,,
+36,Methyl perfluorohexanoate,"bcf, 0.5 uM",,,,
+37,Perfluoro-2-methyl-3-oxahexanoic acid,"bcf, 0.5 uM",,,,
+38,Perfluoropentanamide,"bcf, 0.5 uM",1.8,0.31,,
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate","bcf, 0.5 uM",,,,
+40,4:4 Fluorotelomer alcohol,"bcf, 0.5 uM",,,,
+41,4:2 Fluorotelomer alcohol,"bcf, 0.5 uM",,,,
+42,Perfluorobutyraldehyde,"bcf, 0.5 uM",,,,
+43,Pentafluoropropanoic anhydride,"bcf, 0.5 uM",,,,
+44,Perfluoroisobutyl methyl ether,"bcf, 0.5 uM",,,,
+45,"Bis(1H,1H-perfluoropropyl)amine","bcf, 0.5 uM",,,,
+46,Perfluorooctanesulfonic acid,"bcf, 0.5 uM",271,69,,
+47,Methyl heptafluorobutyrate,"bcf, 0.5 uM",,,,
+48,"1H,1H,5H-Perfluoropentanol","bcf, 0.5 uM",,,,
+49,3-(Perfluoropropyl)propanol,"bcf, 0.5 uM",,,,
+50,11:1 Fluorotelomer alcohol,"bcf, 0.5 uM",,,,
+51,5H-Octafluoropentanoyl fluoride,"bcf, 0.5 uM",,,,
+52,"Difluoromethyl 1H,1H-perfluoropropyl","bcf, 0.5 uM",,,,
+53,Heptafluoropropyl trifluorovinyl ether,"bcf, 0.5 uM",,,,
+54,"Perfluoro-3,6-dioxaheptanoic acid","bcf, 0.5 uM",2.1,0.27,,
+55,Methyl perfluoroethyl ketone,"bcf, 0.5 uM",,,,
+56,3-(Perfluoroisopropyl)-2-propenoic acid,"bcf, 0.5 uM",2.6,0.1,,
+57,Potassium perfluorobutanesulfonate,"bcf, 0.5 uM",4,0.9,,
+58,Octafluoroadipamide,"bcf, 0.5 uM",,,,
+59,"1H,1H,2H-Perfluoro-1-hexene","bcf, 0.5 uM",,,,
+60,Perfluorooctanesulfonamide,"bcf, 0.5 uM",501,19,,
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,"bcf, 0.5 uM",,,,
+62,1-Pentafluoroethylethanol,"bcf, 0.5 uM",,,,
+63,Perfluoroglutaryl difluoride,"bcf, 0.5 uM",,,,
+64,8:2 Fluorotelomer alcohol,"bcf, 0.5 uM",,,,
+65,Ethyl perfluorobutyl ether,"bcf, 0.5 uM",,,,
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane","bcf, 0.5 uM",,,,
+67,Dodecafluoroheptanol,"bcf, 0.5 uM",,,,
+68,"1H,1H-Perfluoropentylamine","bcf, 0.5 uM",,,,
+69,6H-Perfluorohex-1-ene,"bcf, 0.5 uM",,,,
+70,6:2 Fluorotelomer alcohol,"bcf, 0.5 uM",,,,
+71,2-Amino-2H-perfluoropropane,"bcf, 0.5 uM",,,,
+72,5H-Perfluoropentanal,"bcf, 0.5 uM",,,,
+73,Perfluorobutanesulfonic acid,"bcf, 0.5 uM",2.9,0.36,,
+74,Perfluorooctanoic acid,"bcf, 0.5 uM",32,4.4,,
+1,tris(Trifluoroethoxy)methane,"bcf, 5 uM",,,,
+2,6:2 Fluorotelomer methacrylate,"bcf, 5 uM",,,,
+3,Sevoflurane,"bcf, 5 uM",,,,
+4,4H-Perfluorobutanoic acid,"bcf, 5 uM",1.9,0.4,,
+5,Perfluorooctanesulfonamido ammonium iodide,"bcf, 5 uM",56,16,,
+6,Potassium perfluorooctanesulfonate,"bcf, 5 uM",82,9.2,,
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid","bcf, 5 uM",,,,
+8,Perfluorobutanesulfonyl fluoride,"bcf, 5 uM",,,,
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,"bcf, 5 uM",,,,
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,"bcf, 5 uM",,,,
+11,Heptafluorobutanol,"bcf, 5 uM",,,,
+12,Perfluorobutanoic acid,"bcf, 5 uM",1,0.28,,
+13,"2,2-Difluoroethyl triflate","bcf, 5 uM",,,,
+14,"2H,2H,3H,3H-Perfluorooctanoic acid","bcf, 5 uM",8.7,2.1,,
+15,4:2 Fluorotelomer sulfonic acid,"bcf, 5 uM",2.5,0.13,,
+16,N-Methylperfluorooctanesulfonamide,"bcf, 5 uM",89,9.4,,
+17,Perfluorononanoic acid,"bcf, 5 uM",73,6.9,,
+18,Allyl perfluoroisopropyl ether,"bcf, 5 uM",,,,
+19,Nonafluoropentanamide,"bcf, 5 uM",,,,
+20,Perfluorohexanoic acid,"bcf, 5 uM",6.5,0.54,,
+21,Ammonium perfluorooctanoate,"bcf, 5 uM",21,0.42,,
+22,1-Propenylperfluoropropane,"bcf, 5 uM",,,,
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid","bcf, 5 uM",0.69,0.29,,
+24,N-Ethylperfluorooctanesulfonamide,"bcf, 5 uM",24,2.9,,
+25,2-Vinylperfluorobutane,"bcf, 5 uM",,,,
+26,Potassium perfluorohexanesulfonate,"bcf, 5 uM",30,0.71,,
+27,Flurothyl,"bcf, 5 uM",,,,
+28,Perfluoro(4-methoxybutanoic) acid,"bcf, 5 uM",1.4,0.17,,
+29,"1,1,1,3,3-Pentafluorobutane","bcf, 5 uM",,,,
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol","bcf, 5 uM",,,,
+31,Heptafluorobutyramide,"bcf, 5 uM",,,,
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol","bcf, 5 uM",8.4,1.1,,
+33,2-Aminohexafluoropropan-2-ol,"bcf, 5 uM",,,,
+34,"Perfluoro-3,6,9-trioxatridecanoic acid","bcf, 5 uM",93,19,,
+35,Hexafluoroamylene glycol,"bcf, 5 uM",1.1,0.09,,
+36,Methyl perfluorohexanoate,"bcf, 5 uM",,,,
+37,Perfluoro-2-methyl-3-oxahexanoic acid,"bcf, 5 uM",,,,
+38,Perfluoropentanamide,"bcf, 5 uM",1.9,0.66,,
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate","bcf, 5 uM",,,,
+40,4:4 Fluorotelomer alcohol,"bcf, 5 uM",,,,
+41,4:2 Fluorotelomer alcohol,"bcf, 5 uM",,,,
+42,Perfluorobutyraldehyde,"bcf, 5 uM",,,,
+43,Pentafluoropropanoic anhydride,"bcf, 5 uM",,,,
+44,Perfluoroisobutyl methyl ether,"bcf, 5 uM",,,,
+45,"Bis(1H,1H-perfluoropropyl)amine","bcf, 5 uM",,,,
+46,Perfluorooctanesulfonic acid,"bcf, 5 uM",91,10,,
+47,Methyl heptafluorobutyrate,"bcf, 5 uM",,,,
+48,"1H,1H,5H-Perfluoropentanol","bcf, 5 uM",,,,
+49,3-(Perfluoropropyl)propanol,"bcf, 5 uM",,,,
+50,11:1 Fluorotelomer alcohol,"bcf, 5 uM",1.7,0.23,,
+51,5H-Octafluoropentanoyl fluoride,"bcf, 5 uM",0.75,0.15,,
+52,"Difluoromethyl 1H,1H-perfluoropropyl","bcf, 5 uM",,,,
+53,Heptafluoropropyl trifluorovinyl ether,"bcf, 5 uM",,,,
+54,"Perfluoro-3,6-dioxaheptanoic acid","bcf, 5 uM",2,0.4,,
+55,Methyl perfluoroethyl ketone,"bcf, 5 uM",,,,
+56,3-(Perfluoroisopropyl)-2-propenoic acid,"bcf, 5 uM",1.6,0.21,,
+57,Potassium perfluorobutanesulfonate,"bcf, 5 uM",3,0.54,,
+58,Octafluoroadipamide,"bcf, 5 uM",,,,
+59,"1H,1H,2H-Perfluoro-1-hexene","bcf, 5 uM",,,,
+60,Perfluorooctanesulfonamide,"bcf, 5 uM",,,,
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,"bcf, 5 uM",7.7,2.3,,
+62,1-Pentafluoroethylethanol,"bcf, 5 uM",,,,
+63,Perfluoroglutaryl difluoride,"bcf, 5 uM",,,,
+64,8:2 Fluorotelomer alcohol,"bcf, 5 uM",,,,
+65,Ethyl perfluorobutyl ether,"bcf, 5 uM",,,,
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane","bcf, 5 uM",,,,
+67,Dodecafluoroheptanol,"bcf, 5 uM",,,,
+68,"1H,1H-Perfluoropentylamine","bcf, 5 uM",,,,
+69,6H-Perfluorohex-1-ene,"bcf, 5 uM",,,,
+70,6:2 Fluorotelomer alcohol,"bcf, 5 uM",,,,
+71,2-Amino-2H-perfluoropropane,"bcf, 5 uM",,,,
+72,5H-Perfluoropentanal,"bcf, 5 uM",,,,
+73,Perfluorobutanesulfonic acid,"bcf, 5 uM",2.8,0.47,,
+74,Perfluorooctanoic acid,"bcf, 5 uM",17,3.2,,
+1,tris(Trifluoroethoxy)methane,mortality,0,,,
+2,6:2 Fluorotelomer methacrylate,mortality,0,,,
+3,Sevoflurane,mortality,1.1,,,
+4,4H-Perfluorobutanoic acid,mortality,0,,,
+5,Perfluorooctanesulfonamido ammonium iodide,mortality,2.2,,,
+6,Potassium perfluorooctanesulfonate,mortality,2.2,,,
+7,"Perfluoro-3,6-dioxaoctane-1,8-dioic acid",mortality,1.1,,,
+8,Perfluorobutanesulfonyl fluoride,mortality,2.2,,,
+9,N-Ethyl-N-(2-hydroxyethyl)perfluorooctanesulfonamide,mortality,1.1,,,
+10,2-(Trifluoromethoxy)ethyl trifluoromethanesulfonate,mortality,0,,,
+11,Heptafluorobutanol,mortality,1.1,,,
+12,Perfluorobutanoic acid,mortality,4.4,,,
+13,"2,2-Difluoroethyl triflate",mortality,2.2,,,
+14,"2H,2H,3H,3H-Perfluorooctanoic acid",mortality,1.1,,,
+15,4:2 Fluorotelomer sulfonic acid,mortality,0,,,
+16,N-Methylperfluorooctanesulfonamide,mortality,34.4,,,
+17,Perfluorononanoic acid,mortality,1.1,,,
+18,Allyl perfluoroisopropyl ether,mortality,3.3,,,
+19,Nonafluoropentanamide,mortality,1.1,,,
+20,Perfluorohexanoic acid,mortality,0,,,
+21,Ammonium perfluorooctanoate,mortality,0,,,
+22,1-Propenylperfluoropropane,mortality,3.3,,,
+23,"3,3-Bis(trifluoromethyl)-2-propenoic acid",mortality,2.2,,,
+24,N-Ethylperfluorooctanesulfonamide,mortality,3.3,,,
+25,2-Vinylperfluorobutane,mortality,1.1,,,
+26,Potassium perfluorohexanesulfonate,mortality,3.3,,,
+27,Flurothyl,mortality,1.1,,,
+28,Perfluoro(4-methoxybutanoic) acid,mortality,1.1,,,
+29,"1,1,1,3,3-Pentafluorobutane",mortality,3.3,,,
+30,"3-(Perfluoro-2-butyl)propane-1,2-diol",mortality,0,,,
+31,Heptafluorobutyramide,mortality,2.2,,,
+32,"1H,1H,8H,8H-Perfluoro-3,6-dioxaoctane-1,8-diol",mortality,3.3,,,
+33,2-Aminohexafluoropropan-2-ol,mortality,7.8,,,
+34,"Perfluoro-3,6,9-trioxatridecanoic acid",mortality,10,,,
+35,Hexafluoroamylene glycol,mortality,0,,,
+36,Methyl perfluorohexanoate,mortality,4.4,,,
+37,Perfluoro-2-methyl-3-oxahexanoic acid,mortality,1.1,,,
+38,Perfluoropentanamide,mortality,17.8,,,
+39,"Methyl 2H,2H,3H,3H-perfluoroheptanoate",mortality,1.1,,,
+40,4:4 Fluorotelomer alcohol,mortality,0,,,
+41,4:2 Fluorotelomer alcohol,mortality,0,,,
+42,Perfluorobutyraldehyde,mortality,0,,,
+43,Pentafluoropropanoic anhydride,mortality,5.6,,,
+44,Perfluoroisobutyl methyl ether,mortality,1.1,,,
+45,"Bis(1H,1H-perfluoropropyl)amine",mortality,2.2,,,
+46,Perfluorooctanesulfonic acid,mortality,2.2,,,
+47,Methyl heptafluorobutyrate,mortality,0,,,
+48,"1H,1H,5H-Perfluoropentanol",mortality,1.1,,,
+49,3-(Perfluoropropyl)propanol,mortality,1.1,,,
+50,11:1 Fluorotelomer alcohol,mortality,1.1,,,
+51,5H-Octafluoropentanoyl fluoride,mortality,0,,,
+52,"Difluoromethyl 1H,1H-perfluoropropyl",mortality,2.2,,,
+53,Heptafluoropropyl trifluorovinyl ether,mortality,2.2,,,
+54,"Perfluoro-3,6-dioxaheptanoic acid",mortality,2.2,,,
+55,Methyl perfluoroethyl ketone,mortality,2.2,,,
+56,3-(Perfluoroisopropyl)-2-propenoic acid,mortality,4.4,,,
+57,Potassium perfluorobutanesulfonate,mortality,2.2,,,
+58,Octafluoroadipamide,mortality,6.7,,,
+59,"1H,1H,2H-Perfluoro-1-hexene",mortality,4.4,,,
+60,Perfluorooctanesulfonamide,mortality,100,,,
+61,3H-Perfluoro-4-hydroxy-3-penten-2-one,mortality,4.4,,,
+62,1-Pentafluoroethylethanol,mortality,6.7,,,
+63,Perfluoroglutaryl difluoride,mortality,5.6,,,
+64,8:2 Fluorotelomer alcohol,mortality,3.3,,,
+65,Ethyl perfluorobutyl ether,mortality,0,,,
+66,"3H-Perfluoro-2,2,4,4-tetrahydroxypentane",mortality,1.1,,,
+67,Dodecafluoroheptanol,mortality,0,,,
+68,"1H,1H-Perfluoropentylamine",mortality,1.1,,,
+69,6H-Perfluorohex-1-ene,mortality,0,,,
+70,6:2 Fluorotelomer alcohol,mortality,0,,,
+71,2-Amino-2H-perfluoropropane,mortality,3.3,,,
+72,5H-Perfluoropentanal,mortality,3.3,,,
+73,Perfluorobutanesulfonic acid,mortality,5.6,,,
+74,Perfluorooctanoic acid,mortality,4.4,,,
