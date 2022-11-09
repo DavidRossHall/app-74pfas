@@ -14,6 +14,7 @@
   library(plotly)
 
   source("www/utils.R")
+source("www/toxPlotly.r") # tox plot
 
 # 1.2 74 PFAS data ----
   
@@ -68,9 +69,12 @@ server <- shinyServer(function(input, output, session) {
   output$toxPlot = renderPlotly({
     
     # base tox plot loaded from utils.r
-    fig <- plotly::ggplotly(p2)
+    toxPlotly <- plotly::ggplotly(p2)
     
-    fig
+    config(toxPlotly,
+           displayModeBar = TRUE,
+           displaylogo = FALSE
+           )
     
   })
 
