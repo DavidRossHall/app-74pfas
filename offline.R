@@ -30,5 +30,16 @@ pfas_info <- read_csv("raw-data/74pfas_info.csv") %>%
 pfas <- left_join(pfas_info, imgs) %>%
   select(pfas_id, preferred_name, casrn, img_html)
 
-write_csv(pfas, file = "www/pfas_imgs.csv")
+# prepping table data for display on webapp
+
+pfas_table <- pfas %>%
+  relocate(img_html, .after = pfas_id) %>%
+  mutate(preferred_name = paste0(preferred_name, "<br>(<i>", casrn, "</i>)")) %>%
+  rename(ID = pfas_id, 
+         `Name<br>(<i>CAS RN</i>)` = preferred_name, 
+         Structure = img_html) %>%
+  select(-casrn)
+
+
+write_csv(pfas_table, file = "www/pfas_imgs.csv")
 
