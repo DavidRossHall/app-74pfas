@@ -11,6 +11,21 @@ library(plotly)
   fig <- ggplotly(p)
   
   fig
+  
+  p <- ggplot(pfas_tox, 
+              aes(x = pfas, 
+                  y = mean)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = mean - sd, 
+                      ymax =  mean + sd)) +
+    facet_wrap(~measure, ncol = 3, scales = "free") +
+    coord_flip()
+  
+  fig <- plotly::ggplotly(p)
+  
+  fig
+  
+  
 
 # Data table w/ images ----
 

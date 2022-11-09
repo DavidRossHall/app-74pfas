@@ -11,6 +11,7 @@
   library(shiny)
   library(tidyverse)
   library(DT)
+  library(plotly)
 
   source("www/utils.R")
 
@@ -36,7 +37,7 @@
       
       mainPanel(
         tabsetPanel(
-          tabPanel("Phenotypic", plotOutput("plot")), 
+          tabPanel("Phenotypic", plotlyOutput("toxPlot")), 
           tabPanel("Protein", verbatimTextOutput("summary")), 
           tabPanel("Table", tableOutput("table"))
         )
@@ -61,31 +62,17 @@ server <- shinyServer(function(input, output, session) {
                                          scrollCollapse = TRUE
                                        )) 
 
-  ## 3.2 Verbatim table selection ----
 
-  # pfas_sel <- reactive(pfas_info[input$pfasTab_rows_selected, 'pfas_id'])
-  # 
-  # 
-  # output$pfasSelection = renderPrint({
-  #   cat('PFAS ID:\n\n')
-  #   cat(as.vector(input$pfasTab_rows_selected), sep =', ')
-  #   cat('\n\nPreferred Names\n\n')
-  #   pfas_info[input$pfasTab_rows_selected, 'preferred_name']
-  # 
-  #   #cat('\n\n PFAS ID\n\n')
-  #   #cat(as.vector(pfas_info[input$pfasTab_rows_selected, 'pfas_id']))
-  # })
-
-  ## 3.3 plot of tox data  ----
-
-  # output$toxPlot <- renderPlot({
-  # 
-  #   pfas_sel <- pfas_info[input$pfasTab_rows_selected, 'pfas_id']
-  #   print(pfas_sel)
-  # 
-  #   p
-  # 
-  # })
+  # 3.2 Toxicity Data Plots
+  
+  output$toxPlot = renderPlotly({
+    
+    # base tox plot loaded from utils.r
+    fig <- plotly::ggplotly(p2)
+    
+    fig
+    
+  })
 
 })
 
