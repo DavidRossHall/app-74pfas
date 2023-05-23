@@ -6,53 +6,51 @@
 
 # 1. Setup -----
 
-  ## 1.1. Libraries ----
+## 1.1. Libraries ----
 
-  library(shiny)
-  library(tidyverse)
-  library(DT)
-  library(plotly)
+library(shiny)
+library(tidyverse)
+library(DT)
+library(plotly)
 
-  source("www/utils.R")
+source("www/utils.R")
 source("www/toxPlotly.r") # tox plot
 
 # 1.2 74 PFAS data ----
-  
-  # PFAS info 
-  pfas_table <- read_csv(file = "www/pfas_imgs.csv") 
-  
-   
-  pfas_tox <- read_csv(file = "www/jiajun_EHP2020.csv")
+
+# PFAS info 
+pfas_table <- read_csv(file = "www/pfas_imgs.csv") 
+
+
+pfas_tox <- read_csv(file = "www/jiajun_EHP2020.csv")
 
 # 2. UI  -----
 
-  ui <- fluidPage(
-    
-    titlePanel("Tabsets"),
-    
-    sidebarLayout(
-      
-      sidebarPanel(
-        DT::dataTableOutput('pfasTab')
-      ),
-      
-      mainPanel(
-        tabsetPanel(
-          tabPanel("Phenotypic", plotlyOutput("toxPlot")), 
-          tabPanel("Protein", verbatimTextOutput("summary")), 
-          tabPanel("Table", tableOutput("table"))
-        )
-      )
-    )
-  )
+ui <- fluidPage(
+  navbarPage("My Application",
+                 tabPanel("Welcome",
+                          includeHTML("www/welcome.html")),
+                 tabPanel("Toxicity",
+                          sidebarPanel(DT::dataTableOutput('pfasTable')),
+                          mainPanel(textOutput("selected_var"))),
+                 navbarMenu("Proteomics",
+                            tabPanel("Global Changes"),
+                            tabPanel("Chemical-Centric",
+                                     sidebarPanel(DT::dataTableOutput('pfasTable2')),
+                                     mainPanel()),
+                            tabPanel("Protein-centric")
+                            ),
+                     tabPanel("Notes")
+)
+)
 
 # 3. Server  -----
 
 server <- shinyServer(function(input, output, session) {
 
   ## 3.1 PFAS table w/ structures ----
-
-  output$pfasTab = DT::renderDataTable(pfas_table,
+  
+output$pfasTable <- DT::renderDataTable(pfas_table,
                                        server = FALSE,
                                        escape = FALSE,
                                        rownames= FALSE,
@@ -61,22 +59,27 @@ server <- shinyServer(function(input, output, session) {
                                          paging = FALSE,
                                          sScrollX = "100%",
                                          scrollCollapse = TRUE
-                                       )) 
+                                       )
+)
+
+output$pfasTable2 <- DT::renderDataTable(pfas_table,
+                                        server = FALSE,
+                                        escape = FALSE,
+                                        rownames= FALSE,
+                                        options = list(
+                                          scrollY = '600px',
+                                          paging = FALSE,
+                                          sScrollX = "100%",
+                                          scrollCollapse = TRUE
+                                        )
+)
 
 
-  # 3.2 Toxicity Data Plots
-  
-  output$toxPlot = renderPlotly({
-    
-    # base tox plot loaded from utils.r
-    toxPlotly <- plotly::ggplotly(p2)
-    
-    config(toxPlotly,
-           displayModeBar = TRUE,
-           displaylogo = FALSE
-           )
-    
-  })
+output$selected_var <- renderPrint({
+  input$pfasTable_rows_selected
+})
+
+
 
 })
 
