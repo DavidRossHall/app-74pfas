@@ -29,40 +29,68 @@ high_pg <- data.table::fread(file = "www/data/high-exposure-pg.csv")
 # 2. UI  -----
 
 ui <- fluidPage(
-  fluidRow(
-    column(
-      4,
-      textOutput("selected_var"),
-      radioButtons("cmpd_conc",
-        "Exposure Concentration (µM)",
-        c("0.5 µM", "5 µM"),
-        inline = TRUE
-      ),
-      selectInput(
-        "pfas_id", "PFAS ID (refer to table below)",
-        paste0(
-          "ID #",
-          cmpd_table$ID,
-          ": ",
-          cleanHTML(cmpd_table$`Name<br>(<i>CAS RN</i>)`)
-        )
-      ),
-      actionButton("plot_cmpd", "Plot exposure results"),
-      br(),
-      hr(),
-      DT::dataTableOutput("cmpdTable")
+  tags$head(
+    tags$link(rel = "stylesheet", 
+              type = "text/css", 
+              href = "style_edits.css")
+  ),
+  navbarPage(title = div(
+    div(
+      id = "img-id", 
+      img(src = "images/tempIcon.png", style = "width:25%")
     ),
-    column(
-      8,
-      textOutput("conc_select"),
-      textOutput("pfas_select"),
-      textOutput("id_select"),
-      DT::dataTableOutput("headTable"),
-      plotlyOutput("cmpd_volcano") %>%
-        withSpinner(color = "#002A5C"),
-      plotlyOutput("pg_sums") %>%
-        withSpinner(color = "orange")
-    )
+    "PFAStlas"
+    ),
+    
+    # Rest of UI Code
+
+  tabPanel(
+    "Welcome", includeHTML("www/welcome.html")
+  ),
+  navbarMenu(
+    "Proteomics",
+    tabPanel("Global Changes"),
+    tabPanel(
+      "Chemical Centric",
+      fluidRow(
+        column(
+          4,
+          textOutput("selected_var"),
+          radioButtons("cmpd_conc",
+            "Exposure Concentration (µM)",
+            c("0.5 µM", "5 µM"),
+            inline = TRUE
+          ),
+          selectInput(
+            "pfas_id", "PFAS ID (refer to table below)",
+            paste0(
+              "ID #",
+              cmpd_table$ID,
+              ": ",
+              cleanHTML(cmpd_table$`Name<br>(<i>CAS RN</i>)`)
+            )
+          ),
+          actionButton("plot_cmpd", "Plot exposure results"),
+          br(),
+          hr(),
+          DT::dataTableOutput("cmpdTable")
+        ),
+        column(
+          8,
+          textOutput("conc_select"),
+          textOutput("pfas_select"),
+          textOutput("id_select"),
+          DT::dataTableOutput("headTable"),
+          plotlyOutput("cmpd_volcano") %>%
+            withSpinner(color = "#002A5C"),
+          plotlyOutput("pg_sums") %>%
+            withSpinner(color = "orange")
+          )
+       )
+      ),
+    tabPanel("Protein centric")
+    ),
+  tabPanel("Notes", includeHTML("www/notes.html"))
   )
 )
 
@@ -85,26 +113,26 @@ server <- function(input, output, session) {
       scrollCollapse = TRUE
     )
   )
-  
+
   ## cmpd centric dataset for plotting ----
-  
-  cmpdDat <- eventReactive(input$plot_cmpd,{
-    
-    if(input$cmpd_conc == "0.5 µM"){
+
+  cmpdDat <- eventReactive(input$plot_cmpd, {
+    if (input$cmpd_conc == "0.5 µM") {
       dat <- low_pg
     } else {
       dat <- high_pg
     }
-    
+
     dat <- dat %>%
       filter(pfas == as.numeric(sel_pfas_id()))
-    
+
     dat
   })
 
   output$headTable <- DT::renderDataTable({
     DT::datatable(head(cmpdDat()),
-                  options = list(scrollX = TRUE))
+      options = list(scrollX = TRUE)
+    )
   })
 
   ## concentration radio buttons output -----
@@ -116,13 +144,13 @@ server <- function(input, output, session) {
   output$pfas_select <- renderText({
     paste0("You chose PFAS ", input$pfas_id)
   })
-  
-  
+
+
   ## Getting ID no. of selected PFAS cmpd
   sel_pfas_id <- eventReactive(input$plot_cmpd, {
     getID(input$pfas_id)
   })
-  
+
   output$id_select <- renderText({
     paste0("You chose PFAS ", sel_pfas_id())
   })
@@ -146,22 +174,21 @@ server <- function(input, output, session) {
     )
   })
 
-## Data table output of subsetted data
+  ## Data table output of subsetted data
 
-output$headTable <- DT::renderDataTable({
-  DT::datatable(cmpdDat(),
-                options = list(scrollX = TRUE))
-})
+  output$headTable <- DT::renderDataTable({
+    DT::datatable(cmpdDat(),
+      options = list(scrollX = TRUE)
+    )
+  })
 
-## Bar chart output for number of protein groups
+  ## Bar chart output for number of protein groups
 
-output$pg_sums <- renderPlotly({
-  pg_sum_barchart(
-    data = cmpdDat()
-  )
-})
-
-
+  output$pg_sums <- renderPlotly({
+    pg_sum_barchart(
+      data = cmpdDat()
+    )
+  })
 }
 
 # 4. Run the application  -----
