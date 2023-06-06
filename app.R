@@ -57,8 +57,11 @@ ui <- fluidPage(
       textOutput("conc_select"),
       textOutput("pfas_select"),
       textOutput("id_select"),
+      DT::dataTableOutput("headTable"),
       plotlyOutput("cmpd_volcano") %>%
-        withSpinner(color = "#002A5C")
+        withSpinner(color = "#002A5C"),
+      plotlyOutput("pg_sums") %>%
+        withSpinner(color = "orange")
     )
   )
 )
@@ -82,7 +85,27 @@ server <- function(input, output, session) {
       scrollCollapse = TRUE
     )
   )
+  
+  ## cmpd centric dataset for plotting ----
+  
+  cmpdDat <- eventReactive(input$plot_cmpd,{
+    
+    if(input$cmpd_conc == "0.5 µM"){
+      dat <- low_pg
+    } else {
+      dat <- high_pg
+    }
+    
+    dat <- dat %>%
+      filter(pfas == as.numeric(sel_pfas_id()))
+    
+    dat
+  })
 
+  output$headTable <- DT::renderDataTable({
+    DT::datatable(head(cmpdDat()),
+                  options = list(scrollX = TRUE))
+  })
 
   ## concentration radio buttons output -----
 
@@ -93,15 +116,20 @@ server <- function(input, output, session) {
   output$pfas_select <- renderText({
     paste0("You chose PFAS ", input$pfas_id)
   })
-
+  
+  
+  ## Getting ID no. of selected PFAS cmpd
+  sel_pfas_id <- eventReactive(input$plot_cmpd, {
+    getID(input$pfas_id)
+  })
+  
   output$id_select <- renderText({
     paste0("You chose PFAS ", sel_pfas_id())
   })
 
-  sel_pfas_id <- eventReactive(input$plot_cmpd, {
-    getID(input$pfas_id)
-  })
 
+
+  ## Modal warning of processing time to plot compounds ----
   observeEvent(input$plot_cmpd, {
     showModal(modalDialog(
       title = "Plotting...",
@@ -111,14 +139,31 @@ server <- function(input, output, session) {
   })
 
 
-
+  ## Code for volcano plots
   output$cmpd_volcano <- renderPlotly({
     volcanoPlot(
-      data = low_pg,
-      pfasID = sel_pfas_id()
+      data = cmpdDat()
     )
   })
+
+## Data table output of subsetted data
+
+output$headTable <- DT::renderDataTable({
+  DT::datatable(cmpdDat(),
+                options = list(scrollX = TRUE))
+})
+
+## Bar chart output for number of protein groups
+
+output$pg_sums <- renderPlotly({
+  pg_sum_barchart(
+    data = cmpdDat()
+  )
+})
+
+
 }
+
 # 4. Run the application  -----
 
 shinyApp(ui = ui, server = server)
