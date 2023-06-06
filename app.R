@@ -30,29 +30,36 @@ high_pg <- data.table::fread(file = "www/data/high-exposure-pg.csv")
 
 ui <- fluidPage(
   fluidRow(
-    column(4, 
-           textOutput("selected_var"),
-           radioButtons("cmpd_conc", 
-                        "Exposure Concentration (µM)", 
-                        c("0.5 µM", "5 µM"), 
-                        inline=TRUE),
-           selectInput("pfas_id", "PFAS ID (refer to table below)", 
-                       paste0("ID #",
-                             cmpd_table$ID,
-                             ": ", 
-                             cleanHTML(cmpd_table$`Name<br>(<i>CAS RN</i>)`))),
-           actionButton("plot_cmpd", "Plot exposure results"),
-           br(),
-           hr(),
-           DT::dataTableOutput("cmpdTable")
-           )
-    ,
-    column(8, 
-           textOutput("conc_select"),
-           textOutput("pfas_select"),
-           textOutput("id_select"),
-           plotlyOutput("cmpd_volcano") %>%
-             withSpinner(color = "#002A5C"))
+    column(
+      4,
+      textOutput("selected_var"),
+      radioButtons("cmpd_conc",
+        "Exposure Concentration (µM)",
+        c("0.5 µM", "5 µM"),
+        inline = TRUE
+      ),
+      selectInput(
+        "pfas_id", "PFAS ID (refer to table below)",
+        paste0(
+          "ID #",
+          cmpd_table$ID,
+          ": ",
+          cleanHTML(cmpd_table$`Name<br>(<i>CAS RN</i>)`)
+        )
+      ),
+      actionButton("plot_cmpd", "Plot exposure results"),
+      br(),
+      hr(),
+      DT::dataTableOutput("cmpdTable")
+    ),
+    column(
+      8,
+      textOutput("conc_select"),
+      textOutput("pfas_select"),
+      textOutput("id_select"),
+      plotlyOutput("cmpd_volcano") %>%
+        withSpinner(color = "#002A5C")
+    )
   )
 )
 
@@ -61,36 +68,36 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
 
-## PFAS table w/ structures -----
+  ## PFAS table w/ structures -----
 
-output$cmpdTable <- DT::renderDataTable(cmpd_table,
-                                        server = FALSE,
-                                        escape = FALSE,
-                                        rownames = FALSE,
-                                        options = list(
-                                          dom = "ft",
-                                          scrollY = "600px",
-                                          paging = FALSE,
-                                          sScrollX = "100%",
-                                          scrollCollapse = TRUE
-                                        )
+  output$cmpdTable <- DT::renderDataTable(cmpd_table,
+    server = FALSE,
+    escape = FALSE,
+    rownames = FALSE,
+    options = list(
+      dom = "ft",
+      scrollY = "600px",
+      paging = FALSE,
+      sScrollX = "100%",
+      scrollCollapse = TRUE
+    )
   )
-  
 
-## concentration radio buttons output -----
-  
+
+  ## concentration radio buttons output -----
+
   output$conc_select <- renderText({
     paste0("You chose ", input$cmpd_conc)
   })
-  
+
   output$pfas_select <- renderText({
     paste0("You chose PFAS ", input$pfas_id)
   })
-  
+
   output$id_select <- renderText({
     paste0("You chose PFAS ", sel_pfas_id())
   })
-  
+
   sel_pfas_id <- eventReactive(input$plot_cmpd, {
     getID(input$pfas_id)
   })
@@ -102,15 +109,16 @@ output$cmpdTable <- DT::renderDataTable(cmpd_table,
       easyClose = TRUE
     ))
   })
-  
-  
-  
+
+
+
   output$cmpd_volcano <- renderPlotly({
-    volcanoPlot(data = low_pg, 
-                pfasID = sel_pfas_id()) 
+    volcanoPlot(
+      data = low_pg,
+      pfasID = sel_pfas_id()
+    )
   })
-  
-  }
+}
 # 4. Run the application  -----
 
 shinyApp(ui = ui, server = server)
